@@ -17,6 +17,12 @@
 		9E515106286B56BB002103C2 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150FE286B56BB002103C2 /* Ubuntu-Light.ttf */; };
 		9E51510B286B6763002103C2 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51510A286B6763002103C2 /* CustomTabBar.swift */; };
 		9E515114286B91E5002103C2 /* ReusableTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E515113286B91E5002103C2 /* ReusableTabButton.swift */; };
+		9EBA74A0286BABE7008EA0D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA749F286BABE7008EA0D8 /* GoogleService-Info.plist */; };
+		9EBA74A6286BAD09008EA0D8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A5286BAD09008EA0D8 /* FirebaseAuth */; };
+		9EBA74A8286BAD09008EA0D8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A7286BAD09008EA0D8 /* FirebaseFirestore */; };
+		9EBA74AA286BAD09008EA0D8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A9286BAD09008EA0D8 /* FirebaseFirestoreSwift */; };
+		9EBA74AC286BAD09008EA0D8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74AB286BAD09008EA0D8 /* FirebaseStorage */; };
+		9EBA74AE286BAD77008EA0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA74AD286BAD77008EA0D8 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,8 @@
 		9E515108286B5BCD002103C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9E51510A286B6763002103C2 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		9E515113286B91E5002103C2 /* ReusableTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTabButton.swift; sourceTree = "<group>"; };
+		9EBA749F286BABE7008EA0D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9EBA74AD286BAD77008EA0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EBA74A6286BAD09008EA0D8 /* FirebaseAuth in Frameworks */,
+				9EBA74AC286BAD09008EA0D8 /* FirebaseStorage in Frameworks */,
+				9EBA74A8286BAD09008EA0D8 /* FirebaseFirestore in Frameworks */,
+				9EBA74AA286BAD09008EA0D8 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +76,10 @@
 		9E5150E1286B46AB002103C2 /* Clung */ = {
 			isa = PBXGroup;
 			children = (
+				9EBA749F286BABE7008EA0D8 /* GoogleService-Info.plist */,
 				9E515108286B5BCD002103C2 /* Info.plist */,
-				9E5150F5286B46F7002103C2 /* Launch */,
+				9EBA74AD286BAD77008EA0D8 /* AppDelegate.swift */,
+				9E5150E2286B46AB002103C2 /* ClungApp.swift */,
 				9E5150F6286B471E002103C2 /* Resources */,
 				9E5150F4286B46E2002103C2 /* Services */,
 				9E5150F3286B46DB002103C2 /* Helpers */,
@@ -122,14 +136,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		9E5150F5286B46F7002103C2 /* Launch */ = {
-			isa = PBXGroup;
-			children = (
-				9E5150E2286B46AB002103C2 /* ClungApp.swift */,
-			);
-			path = Launch;
-			sourceTree = "<group>";
-		};
 		9E5150F6286B471E002103C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +189,12 @@
 			dependencies = (
 			);
 			name = Clung;
+			packageProductDependencies = (
+				9EBA74A5286BAD09008EA0D8 /* FirebaseAuth */,
+				9EBA74A7286BAD09008EA0D8 /* FirebaseFirestore */,
+				9EBA74A9286BAD09008EA0D8 /* FirebaseFirestoreSwift */,
+				9EBA74AB286BAD09008EA0D8 /* FirebaseStorage */,
+			);
 			productName = Clung;
 			productReference = 9E5150DF286B46AB002103C2 /* Clung.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 9E5150D6286B46AB002103C2;
+			packageReferences = (
+				9EBA74A4286BAD09008EA0D8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9E5150E0286B46AB002103C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +246,7 @@
 				9E515101286B56BB002103C2 /* Ubuntu-Medium.ttf in Resources */,
 				9E515106286B56BB002103C2 /* Ubuntu-Light.ttf in Resources */,
 				9E5150E7286B46AF002103C2 /* Assets.xcassets in Resources */,
+				9EBA74A0286BABE7008EA0D8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +260,7 @@
 				9E515114286B91E5002103C2 /* ReusableTabButton.swift in Sources */,
 				9E51510B286B6763002103C2 /* CustomTabBar.swift in Sources */,
 				9E5150E5286B46AB002103C2 /* RootView.swift in Sources */,
+				9EBA74AE286BAD77008EA0D8 /* AppDelegate.swift in Sources */,
 				9E5150E3286B46AB002103C2 /* ClungApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +464,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9EBA74A4286BAD09008EA0D8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9EBA74A5286BAD09008EA0D8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EBA74A4286BAD09008EA0D8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9EBA74A7286BAD09008EA0D8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EBA74A4286BAD09008EA0D8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9EBA74A9286BAD09008EA0D8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EBA74A4286BAD09008EA0D8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		9EBA74AB286BAD09008EA0D8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EBA74A4286BAD09008EA0D8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9E5150D7286B46AB002103C2 /* Project object */;
 }
