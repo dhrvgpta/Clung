@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5150E3286B46AB002103C2 /* ClungApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5150E2286B46AB002103C2 /* ClungApp.swift */; };
+		9E5150E5286B46AB002103C2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5150E4286B46AB002103C2 /* RootView.swift */; };
+		9E5150E7286B46AF002103C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150E6286B46AF002103C2 /* Assets.xcassets */; };
+		9E5150EA286B46AF002103C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150E9286B46AF002103C2 /* Preview Assets.xcassets */; };
+		9E515100286B56BB002103C2 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150F8286B56BB002103C2 /* Ubuntu-Regular.ttf */; };
+		9E515101286B56BB002103C2 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150F9286B56BB002103C2 /* Ubuntu-Medium.ttf */; };
+		9E515103286B56BB002103C2 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150FB286B56BB002103C2 /* Ubuntu-Bold.ttf */; };
+		9E515106286B56BB002103C2 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150FE286B56BB002103C2 /* Ubuntu-Light.ttf */; };
+		9E51510B286B6763002103C2 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51510A286B6763002103C2 /* CustomTabBar.swift */; };
+		9E515114286B91E5002103C2 /* ReusableTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E515113286B91E5002103C2 /* ReusableTabButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E5150DF286B46AB002103C2 /* Clung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clung.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5150E2286B46AB002103C2 /* ClungApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClungApp.swift; sourceTree = "<group>"; };
+		9E5150E4286B46AB002103C2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9E5150E6286B46AF002103C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E5150E9286B46AF002103C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E5150F8286B56BB002103C2 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Regular.ttf"; path = "../../../../../../../Downloads/Ubuntu/Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		9E5150F9286B56BB002103C2 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Medium.ttf"; path = "../../../../../../../Downloads/Ubuntu/Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		9E5150FB286B56BB002103C2 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Bold.ttf"; path = "../../../../../../../Downloads/Ubuntu/Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		9E5150FE286B56BB002103C2 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Light.ttf"; path = "../../../../../../../Downloads/Ubuntu/Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		9E515108286B5BCD002103C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9E51510A286B6763002103C2 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		9E515113286B91E5002103C2 /* ReusableTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTabButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E5150DC286B46AB002103C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E5150D6286B46AB002103C2 = {
+			isa = PBXGroup;
+			children = (
+				9E5150E1286B46AB002103C2 /* Clung */,
+				9E5150E0286B46AB002103C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5150E0286B46AB002103C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E5150DF286B46AB002103C2 /* Clung.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E5150E1286B46AB002103C2 /* Clung */ = {
+			isa = PBXGroup;
+			children = (
+				9E515108286B5BCD002103C2 /* Info.plist */,
+				9E5150F5286B46F7002103C2 /* Launch */,
+				9E5150F6286B471E002103C2 /* Resources */,
+				9E5150F4286B46E2002103C2 /* Services */,
+				9E5150F3286B46DB002103C2 /* Helpers */,
+				9E5150F2286B46D6002103C2 /* Models */,
+				9E5150F1286B46CF002103C2 /* ViewModels */,
+				9E5150F0286B46C8002103C2 /* Views */,
+				9E5150E8286B46AF002103C2 /* Preview Content */,
+			);
+			path = Clung;
+			sourceTree = "<group>";
+		};
+		9E5150E8286B46AF002103C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E5150E9286B46AF002103C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E5150F0286B46C8002103C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E5150E4286B46AB002103C2 /* RootView.swift */,
+				9E515109286B6725002103C2 /* Common */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E5150F1286B46CF002103C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9E5150F2286B46D6002103C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E5150F3286B46DB002103C2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9E5150F4286B46E2002103C2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9E5150F5286B46F7002103C2 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				9E5150E2286B46AB002103C2 /* ClungApp.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		9E5150F6286B471E002103C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E5150E6286B46AF002103C2 /* Assets.xcassets */,
+				9E5150F7286B4727002103C2 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E5150F7286B4727002103C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9E5150FB286B56BB002103C2 /* Ubuntu-Bold.ttf */,
+				9E5150FE286B56BB002103C2 /* Ubuntu-Light.ttf */,
+				9E5150F9286B56BB002103C2 /* Ubuntu-Medium.ttf */,
+				9E5150F8286B56BB002103C2 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9E515109286B6725002103C2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9E51510F286B80A4002103C2 /* CustomTabBar */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9E51510F286B80A4002103C2 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9E51510A286B6763002103C2 /* CustomTabBar.swift */,
+				9E515113286B91E5002103C2 /* ReusableTabButton.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E5150DE286B46AB002103C2 /* Clung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5150ED286B46AF002103C2 /* Build configuration list for PBXNativeTarget "Clung" */;
+			buildPhases = (
+				9E5150DB286B46AB002103C2 /* Sources */,
+				9E5150DC286B46AB002103C2 /* Frameworks */,
+				9E5150DD286B46AB002103C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clung;
+			productName = Clung;
+			productReference = 9E5150DF286B46AB002103C2 /* Clung.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E5150D7286B46AB002103C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9E5150DE286B46AB002103C2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E5150DA286B46AB002103C2 /* Build configuration list for PBXProject "Clung" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E5150D6286B46AB002103C2;
+			productRefGroup = 9E5150E0286B46AB002103C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5150DE286B46AB002103C2 /* Clung */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5150DD286B46AB002103C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E515100286B56BB002103C2 /* Ubuntu-Regular.ttf in Resources */,
+				9E5150EA286B46AF002103C2 /* Preview Assets.xcassets in Resources */,
+				9E515103286B56BB002103C2 /* Ubuntu-Bold.ttf in Resources */,
+				9E515101286B56BB002103C2 /* Ubuntu-Medium.ttf in Resources */,
+				9E515106286B56BB002103C2 /* Ubuntu-Light.ttf in Resources */,
+				9E5150E7286B46AF002103C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E5150DB286B46AB002103C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E515114286B91E5002103C2 /* ReusableTabButton.swift in Sources */,
+				9E51510B286B6763002103C2 /* CustomTabBar.swift in Sources */,
+				9E5150E5286B46AB002103C2 /* RootView.swift in Sources */,
+				9E5150E3286B46AB002103C2 /* ClungApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E5150EB286B46AF002103C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E5150EC286B46AF002103C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E5150EE286B46AF002103C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clung/Preview Content\"";
+				DEVELOPMENT_TEAM = 7H267678BY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clung/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhrvgpta.Clung;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E5150EF286B46AF002103C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clung/Preview Content\"";
+				DEVELOPMENT_TEAM = 7H267678BY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clung/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhrvgpta.Clung;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E5150DA286B46AB002103C2 /* Build configuration list for PBXProject "Clung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5150EB286B46AF002103C2 /* Debug */,
+				9E5150EC286B46AF002103C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5150ED286B46AF002103C2 /* Build configuration list for PBXNativeTarget "Clung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5150EE286B46AF002103C2 /* Debug */,
+				9E5150EF286B46AF002103C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E5150D7286B46AB002103C2 /* Project object */;
+}
