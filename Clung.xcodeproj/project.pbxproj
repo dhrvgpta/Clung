@@ -20,10 +20,6 @@
 		9EBA74AE286BAD77008EA0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA74AD286BAD77008EA0D8 /* AppDelegate.swift */; };
 		9EE6E151286F0B3700DA6940 /* AuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6E150286F0B3700DA6940 /* AuthVM.swift */; };
 		9EE6E161286F165700DA6940 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E160286F165700DA6940 /* GoogleService-Info.plist */; };
-		9EE6E16F286F196B00DA6940 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E16B286F196B00DA6940 /* Ubuntu-BoldItalic.ttf */; };
-		9EE6E170286F196B00DA6940 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E16C286F196B00DA6940 /* Ubuntu-Italic.ttf */; };
-		9EE6E171286F196B00DA6940 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E16D286F196B00DA6940 /* Ubuntu-LightItalic.ttf */; };
-		9EE6E172286F196B00DA6940 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E16E286F196B00DA6940 /* Ubuntu-MediumItalic.ttf */; };
 		9EE6E177286F1A4400DA6940 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E173286F1A4400DA6940 /* Ubuntu-Light.ttf */; };
 		9EE6E178286F1A4400DA6940 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E174286F1A4400DA6940 /* Ubuntu-Regular.ttf */; };
 		9EE6E179286F1A4400DA6940 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E175286F1A4400DA6940 /* Ubuntu-Medium.ttf */; };
@@ -43,10 +39,6 @@
 		9EE6E14F286F078600DA6940 /* Clung.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clung.entitlements; sourceTree = "<group>"; };
 		9EE6E150286F0B3700DA6940 /* AuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVM.swift; sourceTree = "<group>"; };
 		9EE6E160286F165700DA6940 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9EE6E16B286F196B00DA6940 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-BoldItalic.ttf"; path = "Clung/Ubuntu/Ubuntu-BoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
-		9EE6E16C286F196B00DA6940 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Italic.ttf"; path = "Clung/Ubuntu/Ubuntu-Italic.ttf"; sourceTree = SOURCE_ROOT; };
-		9EE6E16D286F196B00DA6940 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-LightItalic.ttf"; path = "Clung/Ubuntu/Ubuntu-LightItalic.ttf"; sourceTree = SOURCE_ROOT; };
-		9EE6E16E286F196B00DA6940 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-MediumItalic.ttf"; path = "Clung/Ubuntu/Ubuntu-MediumItalic.ttf"; sourceTree = SOURCE_ROOT; };
 		9EE6E173286F1A4400DA6940 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 		9EE6E174286F1A4400DA6940 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		9EE6E175286F1A4400DA6940 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
@@ -182,10 +174,6 @@
 				9EE6E173286F1A4400DA6940 /* Ubuntu-Light.ttf */,
 				9EE6E175286F1A4400DA6940 /* Ubuntu-Medium.ttf */,
 				9EE6E174286F1A4400DA6940 /* Ubuntu-Regular.ttf */,
-				9EE6E16B286F196B00DA6940 /* Ubuntu-BoldItalic.ttf */,
-				9EE6E16C286F196B00DA6940 /* Ubuntu-Italic.ttf */,
-				9EE6E16D286F196B00DA6940 /* Ubuntu-LightItalic.ttf */,
-				9EE6E16E286F196B00DA6940 /* Ubuntu-MediumItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -257,16 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE6E172286F196B00DA6940 /* Ubuntu-MediumItalic.ttf in Resources */,
-				9EE6E16F286F196B00DA6940 /* Ubuntu-BoldItalic.ttf in Resources */,
 				9E5150EA286B46AF002103C2 /* Preview Assets.xcassets in Resources */,
 				9E5150E7286B46AF002103C2 /* Assets.xcassets in Resources */,
 				9EE6E177286F1A4400DA6940 /* Ubuntu-Light.ttf in Resources */,
-				9EE6E170286F196B00DA6940 /* Ubuntu-Italic.ttf in Resources */,
 				9EE6E17A286F1A4400DA6940 /* Ubuntu-Bold.ttf in Resources */,
 				9EE6E179286F1A4400DA6940 /* Ubuntu-Medium.ttf in Resources */,
 				9EE6E178286F1A4400DA6940 /* Ubuntu-Regular.ttf in Resources */,
-				9EE6E171286F196B00DA6940 /* Ubuntu-LightItalic.ttf in Resources */,
 				9EE6E161286F165700DA6940 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
