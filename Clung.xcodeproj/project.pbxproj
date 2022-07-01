@@ -11,18 +11,19 @@
 		9E5150E5286B46AB002103C2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5150E4286B46AB002103C2 /* RootView.swift */; };
 		9E5150E7286B46AF002103C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150E6286B46AF002103C2 /* Assets.xcassets */; };
 		9E5150EA286B46AF002103C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150E9286B46AF002103C2 /* Preview Assets.xcassets */; };
-		9E515100286B56BB002103C2 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150F8286B56BB002103C2 /* Ubuntu-Regular.ttf */; };
-		9E515101286B56BB002103C2 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150F9286B56BB002103C2 /* Ubuntu-Medium.ttf */; };
-		9E515103286B56BB002103C2 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150FB286B56BB002103C2 /* Ubuntu-Bold.ttf */; };
-		9E515106286B56BB002103C2 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150FE286B56BB002103C2 /* Ubuntu-Light.ttf */; };
 		9E51510B286B6763002103C2 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51510A286B6763002103C2 /* CustomTabBar.swift */; };
 		9E515114286B91E5002103C2 /* ReusableTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E515113286B91E5002103C2 /* ReusableTabButton.swift */; };
-		9EBA74A0286BABE7008EA0D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EBA749F286BABE7008EA0D8 /* GoogleService-Info.plist */; };
 		9EBA74A6286BAD09008EA0D8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A5286BAD09008EA0D8 /* FirebaseAuth */; };
 		9EBA74A8286BAD09008EA0D8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A7286BAD09008EA0D8 /* FirebaseFirestore */; };
 		9EBA74AA286BAD09008EA0D8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A9286BAD09008EA0D8 /* FirebaseFirestoreSwift */; };
 		9EBA74AC286BAD09008EA0D8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74AB286BAD09008EA0D8 /* FirebaseStorage */; };
 		9EBA74AE286BAD77008EA0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA74AD286BAD77008EA0D8 /* AppDelegate.swift */; };
+		9EE6E151286F0B3700DA6940 /* AuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE6E150286F0B3700DA6940 /* AuthVM.swift */; };
+		9EE6E161286F165700DA6940 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E160286F165700DA6940 /* GoogleService-Info.plist */; };
+		9EE6E16F286F196B00DA6940 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E16B286F196B00DA6940 /* Ubuntu-BoldItalic.ttf */; };
+		9EE6E170286F196B00DA6940 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E16C286F196B00DA6940 /* Ubuntu-Italic.ttf */; };
+		9EE6E171286F196B00DA6940 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E16D286F196B00DA6940 /* Ubuntu-LightItalic.ttf */; };
+		9EE6E172286F196B00DA6940 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE6E16E286F196B00DA6940 /* Ubuntu-MediumItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,15 +32,17 @@
 		9E5150E4286B46AB002103C2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		9E5150E6286B46AF002103C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E5150E9286B46AF002103C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9E5150F8286B56BB002103C2 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Regular.ttf"; path = "../../../../../../../Downloads/Ubuntu/Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
-		9E5150F9286B56BB002103C2 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Medium.ttf"; path = "../../../../../../../Downloads/Ubuntu/Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
-		9E5150FB286B56BB002103C2 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Bold.ttf"; path = "../../../../../../../Downloads/Ubuntu/Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
-		9E5150FE286B56BB002103C2 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Light.ttf"; path = "../../../../../../../Downloads/Ubuntu/Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 		9E515108286B5BCD002103C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9E51510A286B6763002103C2 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		9E515113286B91E5002103C2 /* ReusableTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTabButton.swift; sourceTree = "<group>"; };
-		9EBA749F286BABE7008EA0D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9EBA74AD286BAD77008EA0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EE6E14F286F078600DA6940 /* Clung.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clung.entitlements; sourceTree = "<group>"; };
+		9EE6E150286F0B3700DA6940 /* AuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVM.swift; sourceTree = "<group>"; };
+		9EE6E160286F165700DA6940 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9EE6E16B286F196B00DA6940 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-BoldItalic.ttf"; path = "Clung/Ubuntu/Ubuntu-BoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		9EE6E16C286F196B00DA6940 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Italic.ttf"; path = "Clung/Ubuntu/Ubuntu-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		9EE6E16D286F196B00DA6940 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-LightItalic.ttf"; path = "Clung/Ubuntu/Ubuntu-LightItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		9EE6E16E286F196B00DA6940 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-MediumItalic.ttf"; path = "Clung/Ubuntu/Ubuntu-MediumItalic.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +79,8 @@
 		9E5150E1286B46AB002103C2 /* Clung */ = {
 			isa = PBXGroup;
 			children = (
-				9EBA749F286BABE7008EA0D8 /* GoogleService-Info.plist */,
+				9EE6E160286F165700DA6940 /* GoogleService-Info.plist */,
+				9EE6E14F286F078600DA6940 /* Clung.entitlements */,
 				9E515108286B5BCD002103C2 /* Info.plist */,
 				9EBA74AD286BAD77008EA0D8 /* AppDelegate.swift */,
 				9E5150E2286B46AB002103C2 /* ClungApp.swift */,
@@ -111,6 +115,7 @@
 		9E5150F1286B46CF002103C2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9EE6E150286F0B3700DA6940 /* AuthVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -139,21 +144,10 @@
 		9E5150F6286B471E002103C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9EE6E16A286F18F700DA6940 /* Fonts */,
 				9E5150E6286B46AF002103C2 /* Assets.xcassets */,
-				9E5150F7286B4727002103C2 /* Fonts */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		9E5150F7286B4727002103C2 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				9E5150FB286B56BB002103C2 /* Ubuntu-Bold.ttf */,
-				9E5150FE286B56BB002103C2 /* Ubuntu-Light.ttf */,
-				9E5150F9286B56BB002103C2 /* Ubuntu-Medium.ttf */,
-				9E5150F8286B56BB002103C2 /* Ubuntu-Regular.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		9E515109286B6725002103C2 /* Common */ = {
@@ -171,6 +165,17 @@
 				9E515113286B91E5002103C2 /* ReusableTabButton.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		9EE6E16A286F18F700DA6940 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9EE6E16B286F196B00DA6940 /* Ubuntu-BoldItalic.ttf */,
+				9EE6E16C286F196B00DA6940 /* Ubuntu-Italic.ttf */,
+				9EE6E16D286F196B00DA6940 /* Ubuntu-LightItalic.ttf */,
+				9EE6E16E286F196B00DA6940 /* Ubuntu-MediumItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,13 +245,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E515100286B56BB002103C2 /* Ubuntu-Regular.ttf in Resources */,
+				9EE6E172286F196B00DA6940 /* Ubuntu-MediumItalic.ttf in Resources */,
+				9EE6E16F286F196B00DA6940 /* Ubuntu-BoldItalic.ttf in Resources */,
 				9E5150EA286B46AF002103C2 /* Preview Assets.xcassets in Resources */,
-				9E515103286B56BB002103C2 /* Ubuntu-Bold.ttf in Resources */,
-				9E515101286B56BB002103C2 /* Ubuntu-Medium.ttf in Resources */,
-				9E515106286B56BB002103C2 /* Ubuntu-Light.ttf in Resources */,
 				9E5150E7286B46AF002103C2 /* Assets.xcassets in Resources */,
-				9EBA74A0286BABE7008EA0D8 /* GoogleService-Info.plist in Resources */,
+				9EE6E170286F196B00DA6940 /* Ubuntu-Italic.ttf in Resources */,
+				9EE6E171286F196B00DA6940 /* Ubuntu-LightItalic.ttf in Resources */,
+				9EE6E161286F165700DA6940 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE6E151286F0B3700DA6940 /* AuthVM.swift in Sources */,
 				9E515114286B91E5002103C2 /* ReusableTabButton.swift in Sources */,
 				9E51510B286B6763002103C2 /* CustomTabBar.swift in Sources */,
 				9E5150E5286B46AB002103C2 /* RootView.swift in Sources */,
@@ -387,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Clung/Clung.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Clung/Preview Content\"";
@@ -417,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Clung/Clung.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Clung/Preview Content\"";
