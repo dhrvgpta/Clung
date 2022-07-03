@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2AF72B286F91CD004D7D61 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AF72A286F91CD004D7D61 /* ContainerView.swift */; };
+		9E2AF72D286F9490004D7D61 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AF72C286F9490004D7D61 /* WelcomeView.swift */; };
+		9E2AF72F286F94AC004D7D61 /* PhoneNumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AF72E286F94AC004D7D61 /* PhoneNumView.swift */; };
+		9E2AF731286F94BE004D7D61 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AF730286F94BE004D7D61 /* VerificationView.swift */; };
+		9E2AF733286F94DA004D7D61 /* ProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AF732286F94DA004D7D61 /* ProfileSetupView.swift */; };
+		9E2AF735286F9567004D7D61 /* SyncContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AF734286F9567004D7D61 /* SyncContactsView.swift */; };
 		9E5150E3286B46AB002103C2 /* ClungApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5150E2286B46AB002103C2 /* ClungApp.swift */; };
 		9E5150E5286B46AB002103C2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5150E4286B46AB002103C2 /* RootView.swift */; };
 		9E5150E7286B46AF002103C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150E6286B46AF002103C2 /* Assets.xcassets */; };
 		9E5150EA286B46AF002103C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5150E9286B46AF002103C2 /* Preview Assets.xcassets */; };
 		9E51510B286B6763002103C2 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51510A286B6763002103C2 /* CustomTabBar.swift */; };
 		9E515114286B91E5002103C2 /* ReusableTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E515113286B91E5002103C2 /* ReusableTabButton.swift */; };
+		9E60425928700E9F0022091C /* OnboardingCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60425828700E9F0022091C /* OnboardingCustomButton.swift */; };
 		9EBA74A6286BAD09008EA0D8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A5286BAD09008EA0D8 /* FirebaseAuth */; };
 		9EBA74A8286BAD09008EA0D8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A7286BAD09008EA0D8 /* FirebaseFirestore */; };
 		9EBA74AA286BAD09008EA0D8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBA74A9286BAD09008EA0D8 /* FirebaseFirestoreSwift */; };
@@ -27,6 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E2AF72A286F91CD004D7D61 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		9E2AF72C286F9490004D7D61 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9E2AF72E286F94AC004D7D61 /* PhoneNumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumView.swift; sourceTree = "<group>"; };
+		9E2AF730286F94BE004D7D61 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		9E2AF732286F94DA004D7D61 /* ProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupView.swift; sourceTree = "<group>"; };
+		9E2AF734286F9567004D7D61 /* SyncContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncContactsView.swift; sourceTree = "<group>"; };
 		9E5150DF286B46AB002103C2 /* Clung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clung.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5150E2286B46AB002103C2 /* ClungApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClungApp.swift; sourceTree = "<group>"; };
 		9E5150E4286B46AB002103C2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -35,6 +48,7 @@
 		9E515108286B5BCD002103C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9E51510A286B6763002103C2 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		9E515113286B91E5002103C2 /* ReusableTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTabButton.swift; sourceTree = "<group>"; };
+		9E60425828700E9F0022091C /* OnboardingCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCustomButton.swift; sourceTree = "<group>"; };
 		9EBA74AD286BAD77008EA0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE6E14F286F078600DA6940 /* Clung.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clung.entitlements; sourceTree = "<group>"; };
 		9EE6E150286F0B3700DA6940 /* AuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVM.swift; sourceTree = "<group>"; };
@@ -60,6 +74,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E2AF729286F91B5004D7D61 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9E2AF72A286F91CD004D7D61 /* ContainerView.swift */,
+				9E2AF72C286F9490004D7D61 /* WelcomeView.swift */,
+				9E2AF72E286F94AC004D7D61 /* PhoneNumView.swift */,
+				9E2AF730286F94BE004D7D61 /* VerificationView.swift */,
+				9E2AF732286F94DA004D7D61 /* ProfileSetupView.swift */,
+				9E2AF734286F9567004D7D61 /* SyncContactsView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		9E5150D6286B46AB002103C2 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +133,7 @@
 		9E5150F0286B46C8002103C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9E2AF729286F91B5004D7D61 /* Onboarding */,
 				9E5150E4286B46AB002103C2 /* RootView.swift */,
 				9E515109286B6725002103C2 /* Common */,
 			);
@@ -130,6 +158,7 @@
 		9E5150F3286B46DB002103C2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				9E60425828700E9F0022091C /* OnboardingCustomButton.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -262,11 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2AF72D286F9490004D7D61 /* WelcomeView.swift in Sources */,
 				9EE6E151286F0B3700DA6940 /* AuthVM.swift in Sources */,
 				9E515114286B91E5002103C2 /* ReusableTabButton.swift in Sources */,
 				9E51510B286B6763002103C2 /* CustomTabBar.swift in Sources */,
 				9E5150E5286B46AB002103C2 /* RootView.swift in Sources */,
+				9E2AF733286F94DA004D7D61 /* ProfileSetupView.swift in Sources */,
+				9E2AF731286F94BE004D7D61 /* VerificationView.swift in Sources */,
+				9E2AF72B286F91CD004D7D61 /* ContainerView.swift in Sources */,
+				9E2AF735286F9567004D7D61 /* SyncContactsView.swift in Sources */,
+				9E2AF72F286F94AC004D7D61 /* PhoneNumView.swift in Sources */,
 				9EBA74AE286BAD77008EA0D8 /* AppDelegate.swift in Sources */,
+				9E60425928700E9F0022091C /* OnboardingCustomButton.swift in Sources */,
 				9E5150E3286B46AB002103C2 /* ClungApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

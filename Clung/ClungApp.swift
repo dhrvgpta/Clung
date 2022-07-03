@@ -13,6 +13,7 @@ struct ClungApp: App {
     var body: some Scene {
         WindowGroup {
             RootView()
+                .environmentObject(AuthVM())
         }
     }
 }

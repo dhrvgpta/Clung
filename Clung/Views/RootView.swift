@@ -7,9 +7,13 @@
 import SwiftUI
 
 struct RootView: View {
+    @EnvironmentObject var authVM: AuthVM
     
     // Initialising default tab
     @State var selectedTab: tabs = .chatsView
+    
+    // Property that keeps control of whether to show the onboarding sequence
+    @State var isOnboarding = !AuthVM.isUserLoggedIn()
 
     var body: some View {
         VStack{
@@ -19,6 +23,14 @@ struct RootView: View {
             Spacer()
             CustomTabBar(selectedTab: $selectedTab)
         }.background(Color("Background Color"))
+         .fullScreenCover(isPresented: $isOnboarding) {
+                // TODO: On dismiss
+            } content: {
+                
+                // Onboarding sequence
+                ContainerView(isOnboarding: $isOnboarding)
+            }
+
     }
 }
 

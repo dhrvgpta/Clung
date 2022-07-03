@@ -6,7 +6,7 @@
 import Foundation
 import FirebaseAuth
 
-struct AuthVM{
+class AuthVM: ObservableObject{
     static func isUserLoggedIn() -> Bool {
         
         // Don't have to specify "return" when the func is just one-liner
